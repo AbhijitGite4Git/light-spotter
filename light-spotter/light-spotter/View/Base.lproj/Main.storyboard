@@ -10,7 +10,7 @@
         <!--Light Spotter-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MapController" customModule="light_spotter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MapController" customModule="Light_Spotter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,7 +56,7 @@
         <!--ListVC-->
         <scene sceneID="22S-Xd-86J">
             <objects>
-                <viewController storyboardIdentifier="ListVC" id="kUo-pg-U5m" customClass="ListVC" customModule="light_spotter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ListVC" id="kUo-pg-U5m" customClass="ListVC" customModule="Light_Spotter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p3F-ae-LIo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,7 +65,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CustomLight" rowHeight="60" id="VB4-KO-Khq" customClass="CustomLight" customModule="light_spotter" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CustomLight" rowHeight="60" id="VB4-KO-Khq" customClass="CustomLight" customModule="Light_Spotter" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VB4-KO-Khq" id="PHX-pT-hpa">
@@ -127,38 +127,38 @@
         <!--List DetailVC-->
         <scene sceneID="D8R-Kt-daF">
             <objects>
-                <viewController storyboardIdentifier="ListDetailVC" id="1Kc-Ez-aH0" customClass="ListDetailVC" customModule="light_spotter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ListDetailVC" id="1Kc-Ez-aH0" customClass="ListDetailVC" customModule="Light_Spotter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="54U-vp-JDn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="SIW-FR-Trh">
-                                <rect key="frame" x="82" y="99" width="250" height="250"/>
+                                <rect key="frame" x="82" y="188.5" width="250" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="6dy-6R-trA"/>
                                     <constraint firstAttribute="height" constant="250" id="zak-m9-fG2"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera id: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDf-z7-mEV">
-                                <rect key="frame" x="82" y="369" width="250" height="21"/>
+                                <rect key="frame" x="82" y="458.5" width="250" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timestamp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1v-5r-zJB">
-                                <rect key="frame" x="82" y="447.5" width="250" height="21"/>
+                                <rect key="frame" x="82" y="537" width="250" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chU-C5-Lau">
-                                <rect key="frame" x="82" y="405.5" width="250" height="18"/>
+                                <rect key="frame" x="82" y="495" width="250" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uec-f6-jDk">
-                                <rect key="frame" x="82" y="486.5" width="250" height="18"/>
+                                <rect key="frame" x="82" y="576" width="250" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -180,7 +180,7 @@
                             <constraint firstItem="s1v-5r-zJB" firstAttribute="top" secondItem="chU-C5-Lau" secondAttribute="bottom" constant="24" id="DMi-8U-HHR"/>
                             <constraint firstItem="uec-f6-jDk" firstAttribute="top" secondItem="s1v-5r-zJB" secondAttribute="bottom" constant="18" id="ERe-08-1fA"/>
                             <constraint firstItem="chU-C5-Lau" firstAttribute="trailing" secondItem="VDf-z7-mEV" secondAttribute="trailing" id="Gju-VM-rca"/>
-                            <constraint firstItem="SIW-FR-Trh" firstAttribute="centerY" secondItem="54U-vp-JDn" secondAttribute="centerY" multiplier="0.5" id="JYb-Yw-tiY"/>
+                            <constraint firstItem="SIW-FR-Trh" firstAttribute="centerY" secondItem="54U-vp-JDn" secondAttribute="centerY" multiplier="0.7" id="JYb-Yw-tiY"/>
                             <constraint firstItem="VDf-z7-mEV" firstAttribute="top" secondItem="SIW-FR-Trh" secondAttribute="bottom" constant="20" id="a21-ym-hVK"/>
                             <constraint firstItem="VDf-z7-mEV" firstAttribute="leading" secondItem="SIW-FR-Trh" secondAttribute="leading" id="a6a-ge-o6f"/>
                             <constraint firstItem="chU-C5-Lau" firstAttribute="top" secondItem="VDf-z7-mEV" secondAttribute="bottom" constant="15.5" id="clR-hU-IWg"/>
