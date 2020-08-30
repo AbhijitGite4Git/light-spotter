@@ -21,9 +21,12 @@ class ListDetailVC: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         if self.camera != nil  {
-            imgViewLight.load(url: URL(string: (camera?.image)!)!)
-            lblCameraid.text = camera?.camera_id
-            lblTimestamp.text = camera?.timestamp
+            if self.camera?.image != nil {
+                imgViewLight.load(url: URL(string: (self.camera?.image)!)!)
+                lblCameraid.text = self.camera?.camera_id
+                lblTimestamp.text = self.camera?.timestamp
+            }
+            
         }
         
         
@@ -48,11 +51,11 @@ class ListDetailVC: UIViewController {
 //Extention to accept URL as input to image view
 extension UIImageView {
     func load(url: URL) {
-        DispatchQueue.global().async { [weak self] in
+        DispatchQueue.global().async { [unowned self] in
             if let data = try? Data(contentsOf: url ) {
                 if let image = UIImage(data: data) {
                     DispatchQueue.main.async {
-                        self?.image = image
+                        self.image = image
                     }
                 }
             }

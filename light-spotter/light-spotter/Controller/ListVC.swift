@@ -15,7 +15,7 @@ class ListVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //viewModelLights.vc = self
-       // viewModelLights.getAllCameras()
+        // viewModelLights.getAllCameras()
         // Do any additional setup after loading the view.
     }
     

@@ -14,7 +14,7 @@ import Reachability
 /*
  Initial View Controller with maps
  */
-class MapController: UIViewController, GMSMapViewDelegate {
+class MapController: UIViewController {
     
     let locationManager = CLLocationManager()
     let viewModelLights = LightsViewModel()
@@ -60,21 +60,6 @@ class MapController: UIViewController, GMSMapViewDelegate {
             locationManager.startUpdatingLocation()
         }
     }
-    
-    
-    //GMS delegate
-    func mapViewDidFinishTileRendering(_ mapView: GMSMapView) {
-        print("Map finished loading")
-    }
-    
-    func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
-           if marker.snippet != nil {
-               print("didTap marker \(String(describing: marker.snippet))")
-               self.selectedCamera =  find(value: marker.snippet ?? "NA", in: self.viewModelLights.resultCameras)
-               performSegue(withIdentifier: "showImage", sender: self)
-           }
-           return true
-       }
     
     //Load custom markers
     func loadMarkers(){
@@ -138,4 +123,22 @@ extension MapController : CLLocationManagerDelegate {
         
     }
 }
+
+extension MapController : GMSMapViewDelegate {
+    
+    //GMS delegate
+      func mapViewDidFinishTileRendering(_ mapView: GMSMapView) {
+          print("Map finished loading")
+      }
+      
+      func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
+             if marker.snippet != nil {
+                 print("didTap marker \(String(describing: marker.snippet))")
+                 self.selectedCamera =  find(value: marker.snippet ?? "NA", in: self.viewModelLights.resultCameras)
+                 performSegue(withIdentifier: "showImage", sender: self)
+             }
+             return true
+      }
+}
+
 
