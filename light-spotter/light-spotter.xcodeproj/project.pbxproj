@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7754379ECD651C7B40CC61C8 /* Pods_light_spotter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668E3F4AF1710C0FFD76EDB2 /* Pods_light_spotter.framework */; };
+		81BD953924FA108900D81876 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD953324FA108900D81876 /* Items.swift */; };
+		81BD953A24FA108900D81876 /* SG_Lights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD953424FA108900D81876 /* SG_Lights.swift */; };
+		81BD953B24FA108900D81876 /* Cameras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD953524FA108900D81876 /* Cameras.swift */; };
+		81BD953C24FA108900D81876 /* Image_metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD953624FA108900D81876 /* Image_metadata.swift */; };
+		81BD953D24FA108900D81876 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD953724FA108900D81876 /* Location.swift */; };
+		81BD953E24FA108900D81876 /* Api_info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD953824FA108900D81876 /* Api_info.swift */; };
+		81BD954024FA137A00D81876 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD953F24FA137A00D81876 /* ListVC.swift */; };
+		81BD954324FA13BF00D81876 /* CustomLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD954224FA13BF00D81876 /* CustomLight.swift */; };
+		81BD954524FA145A00D81876 /* LightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD954424FA145A00D81876 /* LightViewModel.swift */; };
+		81BD954724FA280A00D81876 /* ListDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD954624FA280A00D81876 /* ListDetailVC.swift */; };
+		81D863EF24FBC0060096E86E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D863EE24FBC0060096E86E /* Utilities.swift */; };
+		81D863F124FBC08C0096E86E /* CoreStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D863F024FBC08C0096E86E /* CoreStrings.swift */; };
+		81D8640724FBE0990096E86E /* Light_SpotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D8640624FBE0990096E86E /* Light_SpotterTests.swift */; };
+		81FB30A424F8AA7500C9A7A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB30A324F8AA7500C9A7A2 /* AppDelegate.swift */; };
+		81FB30A624F8AA7500C9A7A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB30A524F8AA7500C9A7A2 /* SceneDelegate.swift */; };
+		81FB30A824F8AA7500C9A7A2 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FB30A724F8AA7500C9A7A2 /* MapController.swift */; };
+		81FB30AB24F8AA7500C9A7A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FB30A924F8AA7500C9A7A2 /* Main.storyboard */; };
+		81FB30AD24F8AA7900C9A7A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81FB30AC24F8AA7900C9A7A2 /* Assets.xcassets */; };
+		81FB30B024F8AA7900C9A7A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FB30AE24F8AA7900C9A7A2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81D8640924FBE0990096E86E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81FB309824F8AA7500C9A7A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81FB309F24F8AA7500C9A7A2;
+			remoteInfo = "light-spotter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15C495B99A619F0F7F02A46A /* Pods-light-spotter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-light-spotter.release.xcconfig"; path = "Target Support Files/Pods-light-spotter/Pods-light-spotter.release.xcconfig"; sourceTree = "<group>"; };
+		668E3F4AF1710C0FFD76EDB2 /* Pods_light_spotter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_light_spotter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BD953324FA108900D81876 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		81BD953424FA108900D81876 /* SG_Lights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SG_Lights.swift; sourceTree = "<group>"; };
+		81BD953524FA108900D81876 /* Cameras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cameras.swift; sourceTree = "<group>"; };
+		81BD953624FA108900D81876 /* Image_metadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image_metadata.swift; sourceTree = "<group>"; };
+		81BD953724FA108900D81876 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		81BD953824FA108900D81876 /* Api_info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api_info.swift; sourceTree = "<group>"; };
+		81BD953F24FA137A00D81876 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		81BD954224FA13BF00D81876 /* CustomLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLight.swift; sourceTree = "<group>"; };
+		81BD954424FA145A00D81876 /* LightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightViewModel.swift; sourceTree = "<group>"; };
+		81BD954624FA280A00D81876 /* ListDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailVC.swift; sourceTree = "<group>"; };
+		81D863EE24FBC0060096E86E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		81D863F024FBC08C0096E86E /* CoreStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreStrings.swift; sourceTree = "<group>"; };
+		81D8640424FBE0990096E86E /* Light SpotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Light SpotterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D8640624FBE0990096E86E /* Light_SpotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light_SpotterTests.swift; sourceTree = "<group>"; };
+		81D8640824FBE0990096E86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81FB30A024F8AA7500C9A7A2 /* Light Spotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Light Spotter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FB30A324F8AA7500C9A7A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81FB30A524F8AA7500C9A7A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		81FB30A724F8AA7500C9A7A2 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		81FB30AA24F8AA7500C9A7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81FB30AC24F8AA7900C9A7A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81FB30AF24F8AA7900C9A7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81FB30B124F8AA7900C9A7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F36EB4015F431194A2CABF /* Pods-light-spotter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-light-spotter.debug.xcconfig"; path = "Target Support Files/Pods-light-spotter/Pods-light-spotter.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81D8640124FBE0990096E86E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FB309D24F8AA7500C9A7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7754379ECD651C7B40CC61C8 /* Pods_light_spotter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		309A0C46B99A693E4898FC44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94F36EB4015F431194A2CABF /* Pods-light-spotter.debug.xcconfig */,
+				15C495B99A619F0F7F02A46A /* Pods-light-spotter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		81BD953024FA0F5700D81876 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81BD954124FA139A00D81876 /* List */,
+				81FB30A924F8AA7500C9A7A2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81BD953124FA0F6000D81876 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81FB30A724F8AA7500C9A7A2 /* MapController.swift */,
+				81BD953F24FA137A00D81876 /* ListVC.swift */,
+				81BD954624FA280A00D81876 /* ListDetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81BD953224FA0F6A00D81876 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				81BD954424FA145A00D81876 /* LightViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		81BD954124FA139A00D81876 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				81BD954224FA13BF00D81876 /* CustomLight.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		81D863ED24FBBFE60096E86E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				81D863EE24FBC0060096E86E /* Utilities.swift */,
+				81D863F024FBC08C0096E86E /* CoreStrings.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		81D8640524FBE0990096E86E /* Light SpotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				81D8640624FBE0990096E86E /* Light_SpotterTests.swift */,
+				81D8640824FBE0990096E86E /* Info.plist */,
+			);
+			path = "Light SpotterTests";
+			sourceTree = "<group>";
+		};
+		81FB309724F8AA7500C9A7A2 = {
+			isa = PBXGroup;
+			children = (
+				81FB30A224F8AA7500C9A7A2 /* light-spotter */,
+				81D8640524FBE0990096E86E /* Light SpotterTests */,
+				81FB30A124F8AA7500C9A7A2 /* Products */,
+				309A0C46B99A693E4898FC44 /* Pods */,
+				CABB04894B9A1BA3CC078B7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81FB30A124F8AA7500C9A7A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81FB30A024F8AA7500C9A7A2 /* Light Spotter.app */,
+				81D8640424FBE0990096E86E /* Light SpotterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81FB30A224F8AA7500C9A7A2 /* light-spotter */ = {
+			isa = PBXGroup;
+			children = (
+				81D863ED24FBBFE60096E86E /* Utilities */,
+				81BD953224FA0F6A00D81876 /* View Model */,
+				81BD953124FA0F6000D81876 /* Controller */,
+				81BD953024FA0F5700D81876 /* View */,
+				81FB30B724F8B9CF00C9A7A2 /* Models */,
+				81FB30A324F8AA7500C9A7A2 /* AppDelegate.swift */,
+				81FB30A524F8AA7500C9A7A2 /* SceneDelegate.swift */,
+				81FB30AC24F8AA7900C9A7A2 /* Assets.xcassets */,
+				81FB30AE24F8AA7900C9A7A2 /* LaunchScreen.storyboard */,
+				81FB30B124F8AA7900C9A7A2 /* Info.plist */,
+			);
+			path = "light-spotter";
+			sourceTree = "<group>";
+		};
+		81FB30B724F8B9CF00C9A7A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81BD953824FA108900D81876 /* Api_info.swift */,
+				81BD953524FA108900D81876 /* Cameras.swift */,
+				81BD953624FA108900D81876 /* Image_metadata.swift */,
+				81BD953324FA108900D81876 /* Items.swift */,
+				81BD953424FA108900D81876 /* SG_Lights.swift */,
+				81BD953724FA108900D81876 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CABB04894B9A1BA3CC078B7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				668E3F4AF1710C0FFD76EDB2 /* Pods_light_spotter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81D8640324FBE0990096E86E /* Light SpotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D8640B24FBE0990096E86E /* Build configuration list for PBXNativeTarget "Light SpotterTests" */;
+			buildPhases = (
+				81D8640024FBE0990096E86E /* Sources */,
+				81D8640124FBE0990096E86E /* Frameworks */,
+				81D8640224FBE0990096E86E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81D8640A24FBE0990096E86E /* PBXTargetDependency */,
+			);
+			name = "Light SpotterTests";
+			productName = "Light SpotterTests";
+			productReference = 81D8640424FBE0990096E86E /* Light SpotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81FB309F24F8AA7500C9A7A2 /* light-spotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81FB30B424F8AA7900C9A7A2 /* Build configuration list for PBXNativeTarget "light-spotter" */;
+			buildPhases = (
+				8F3A48AFE2060128AD959763 /* [CP] Check Pods Manifest.lock */,
+				81FB309C24F8AA7500C9A7A2 /* Sources */,
+				81FB309D24F8AA7500C9A7A2 /* Frameworks */,
+				81FB309E24F8AA7500C9A7A2 /* Resources */,
+				AF5ED9215F6A189783897A1A /* [CP] Copy Pods Resources */,
+				6A2C66C7E6FE8F5E46E4A5D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "light-spotter";
+			productName = "light-spotter";
+			productReference = 81FB30A024F8AA7500C9A7A2 /* Light Spotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81FB309824F8AA7500C9A7A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Abhijit Gite";
+				TargetAttributes = {
+					81D8640324FBE0990096E86E = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 81FB309F24F8AA7500C9A7A2;
+					};
+					81FB309F24F8AA7500C9A7A2 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 81FB309B24F8AA7500C9A7A2 /* Build configuration list for PBXProject "light-spotter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81FB309724F8AA7500C9A7A2;
+			productRefGroup = 81FB30A124F8AA7500C9A7A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81FB309F24F8AA7500C9A7A2 /* light-spotter */,
+				81D8640324FBE0990096E86E /* Light SpotterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81D8640224FBE0990096E86E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FB309E24F8AA7500C9A7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FB30B024F8AA7900C9A7A2 /* LaunchScreen.storyboard in Resources */,
+				81FB30AD24F8AA7900C9A7A2 /* Assets.xcassets in Resources */,
+				81FB30AB24F8AA7500C9A7A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A2C66C7E6FE8F5E46E4A5D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-light-spotter/Pods-light-spotter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-light-spotter/Pods-light-spotter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-light-spotter/Pods-light-spotter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F3A48AFE2060128AD959763 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-light-spotter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF5ED9215F6A189783897A1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-light-spotter/Pods-light-spotter-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-light-spotter/Pods-light-spotter-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-light-spotter/Pods-light-spotter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81D8640024FBE0990096E86E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D8640724FBE0990096E86E /* Light_SpotterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FB309C24F8AA7500C9A7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BD954724FA280A00D81876 /* ListDetailVC.swift in Sources */,
+				81BD953B24FA108900D81876 /* Cameras.swift in Sources */,
+				81D863EF24FBC0060096E86E /* Utilities.swift in Sources */,
+				81BD953924FA108900D81876 /* Items.swift in Sources */,
+				81BD953D24FA108900D81876 /* Location.swift in Sources */,
+				81BD953E24FA108900D81876 /* Api_info.swift in Sources */,
+				81FB30A824F8AA7500C9A7A2 /* MapController.swift in Sources */,
+				81D863F124FBC08C0096E86E /* CoreStrings.swift in Sources */,
+				81BD953C24FA108900D81876 /* Image_metadata.swift in Sources */,
+				81BD954024FA137A00D81876 /* ListVC.swift in Sources */,
+				81FB30A424F8AA7500C9A7A2 /* AppDelegate.swift in Sources */,
+				81BD953A24FA108900D81876 /* SG_Lights.swift in Sources */,
+				81BD954324FA13BF00D81876 /* CustomLight.swift in Sources */,
+				81FB30A624F8AA7500C9A7A2 /* SceneDelegate.swift in Sources */,
+				81BD954524FA145A00D81876 /* LightViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81D8640A24FBE0990096E86E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81FB309F24F8AA7500C9A7A2 /* light-spotter */;
+			targetProxy = 81D8640924FBE0990096E86E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81FB30A924F8AA7500C9A7A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81FB30AA24F8AA7500C9A7A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81FB30AE24F8AA7900C9A7A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81FB30AF24F8AA7900C9A7A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81D8640C24FBE0990096E86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5UQP4D3SV;
+				INFOPLIST_FILE = "Light SpotterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhijit.Light-SpotterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Light Spotter.app/Light Spotter";
+			};
+			name = Debug;
+		};
+		81D8640D24FBE0990096E86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5UQP4D3SV;
+				INFOPLIST_FILE = "Light SpotterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhijit.Light-SpotterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Light Spotter.app/Light Spotter";
+			};
+			name = Release;
+		};
+		81FB30B224F8AA7900C9A7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81FB30B324F8AA7900C9A7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81FB30B524F8AA7900C9A7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F36EB4015F431194A2CABF /* Pods-light-spotter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5UQP4D3SV;
+				INFOPLIST_FILE = "light-spotter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhijit.light-spotter";
+				PRODUCT_NAME = "Light Spotter";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81FB30B624F8AA7900C9A7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C495B99A619F0F7F02A46A /* Pods-light-spotter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5UQP4D3SV;
+				INFOPLIST_FILE = "light-spotter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhijit.light-spotter";
+				PRODUCT_NAME = "Light Spotter";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81D8640B24FBE0990096E86E /* Build configuration list for PBXNativeTarget "Light SpotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D8640C24FBE0990096E86E /* Debug */,
+				81D8640D24FBE0990096E86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81FB309B24F8AA7500C9A7A2 /* Build configuration list for PBXProject "light-spotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FB30B224F8AA7900C9A7A2 /* Debug */,
+				81FB30B324F8AA7900C9A7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81FB30B424F8AA7900C9A7A2 /* Build configuration list for PBXNativeTarget "light-spotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FB30B524F8AA7900C9A7A2 /* Debug */,
+				81FB30B624F8AA7900C9A7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81FB309824F8AA7500C9A7A2 /* Project object */;
+}
